@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Taladro",
+    "description": "Taladro eléctrico para perforar agujeros",
+    "price": 41.999,
+    "thumbnail": "taladro.jpg",
+    "code": "A001",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "title": "Destornillador",
+    "description": "Destornillador eléctrico para sacar y poner tornillos",
+    "price": 32.999,
+    "thumbnail": "Destornillador.jpg",
+    "code": "A002",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Amoladora",
+    "description": "Amoladora eléctrico para cortar, desbastar y pulir deistintos materiales",
+    "price": 37.999,
+    "thumbnail": "Amoladora.jpg",
+    "code": "A003",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "title": "Martillo Percutor",
+    "description": "Martillo Percutor eléctrico para perforaciones profundas, abrir agujeros en paredes, o demolerlas.",
+    "price": 64.955,
+    "thumbnail": "Martillo-Percutor.jpg",
+    "code": "A004",
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "title": "Nombre Ejemplo N°5 ",
+    "description": "Descripcion Ejemplo N°5",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°5.jpg",
+    "code": "A005",
+    "stock": 10
+  },
+  {
+    "id": 6,
+    "title": "Nombre Ejemplo N°6 ",
+    "description": "Descripcion Ejemplo N°6",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°6.jpg",
+    "code": "A006",
+    "stock": 10
+  },
+  {
+    "id": 7,
+    "title": "Nombre Ejemplo N°7 ",
+    "description": "Descripcion Ejemplo N°7",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°7.jpg",
+    "code": "A007",
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "title": "Nombre Ejemplo N°8 ",
+    "description": "Descripcion Ejemplo N°8",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°8.jpg",
+    "code": "A008",
+    "stock": 10
+  },
+  {
+    "id": 9,
+    "title": "Nombre Ejemplo N°9 ",
+    "description": "Descripcion Ejemplo N°9",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°9.jpg",
+    "code": "A009",
+    "stock": 10
+  },
+  {
+    "id": 10,
+    "title": "Nombre Ejemplo N°10 ",
+    "description": "Descripcion Ejemplo N°10",
+    "price": 64.95,
+    "thumbnail": "Imagen-Ejemplo-N°10.jpg",
+    "code": "A010",
+    "stock": 10
+  }
+]
