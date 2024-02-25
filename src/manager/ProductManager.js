@@ -44,11 +44,22 @@ export class ProductManager {
       const products = JSON.parse(data);
       return products;
     } catch (error) {
-      console.log(err);
+      console.log("Error al leer el archivo.");
     }
   };
 
-  addProduct = async (title, description, price, thumbnail, code, stock) => {
+  addProduct = async (
+    title ,
+    description,
+    code,
+    price,
+    status = true,
+    stock ,
+    category,
+    thumbnail ,
+    
+    
+  ) => {
     try {
       const fileExist = fs.existsSync(ProductManager.#path);
 
@@ -62,20 +73,25 @@ export class ProductManager {
         id: this.getNextId(),
         title,
         description,
-        price,
-        thumbnail,
         code,
+        price,
+        status,
         stock,
+        category,
+        thumbnail,
       };
 
-      if (products.find((product) => product.code === code)) {
-        console.log(`Producto con code: ${product.code} ya existe.`);
+      if (!title || !description || !code || !price || !stock ) {
+        console.log(`Error: Todos los campos son obligatorios`);
+        return false;
+      } else if (products.find((product) => product.code === code)) {
+        console.log(`Error: Producto con code: ${product.code} ya existe.`);
         return undefined;
       } else {
         products.push(product);
         await this.saveData(products);
 
-        console.log(`Producto Agregado`);
+        console.log(`Producto Agregado exitosamente`);
 
         const Reproducts = await this.getProducts();
 

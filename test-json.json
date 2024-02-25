@@ -1,0 +1,15 @@
+[
+{
+    "post-product": "body para hacer el post"
+},
+{
+    "title": "Nombre Ejemplo",
+    "description": "Descripcion Ejemplo",
+    "code": "A000",
+    "price": 64.9335,
+    "status": true,
+    "stock": 10,
+    "category": "Categoria Ejemplo",
+    "thumbnail": ["img-ejemplo.jpg","img-ejemplo2.jpg"]
+}
+]
